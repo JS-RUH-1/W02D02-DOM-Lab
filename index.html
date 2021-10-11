@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body onload="hundleLoad()">
+    <h1 id="heading">Web Development Essentials</h1>
+    <p
+      id="paragraph"
+      onmouseover="hundleMouseOverParagraph(this)"
+      onmouseout="hundleMouseOutParagraph(this)"
+    >
+      W02D02-Lab in JavaScript course is about Scripting and Event Handling DOM!
+    </p>
+    <form id="form">
+      <label for="name">Name:</label><br />
+      <input
+        oninput="hundleInput()"
+        type="text"
+        id="name"
+        name="name"
+        value=""
+      /><br />
+      <label for="course">Course:</label><br />
+      <input
+        oninput="hundleInput()"
+        type="text"
+        id="course"
+        name="course"
+        value=""
+      /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <img
+      id="myIMG"
+      onmouseover="hunldeMouseOver(this)"
+      onmouseout="hundleMouseOut(this)"
+      src="http://www.javatpoint.com/images/javascript/javascript_logo.png"
+    />
+    <img
+      id="myIMG3"
+      style="display: none"
+      src="https://images.all-free-download.com/images/graphiclarge/shrimp_flower_transparent_png_format_highdefinition_picture_167346.jpg"
+    />
+    <img
+      oncontextmenu="hundleRightClick(this)"
+      id="myIMG2"
+      style="display: block"
+      src="https://images.all-free-download.com/images/graphiclarge/sirloin_steak_transparent_png_format_highdefinition_picture_167347.jpg"
+    />
+
+    <input
+      onclick="hundleClick()"
+      style="
+        text-align: center !important ;
+        font-size: 20px;
+        padding: 2px;
+        margin-left: 50%;
+      "
+      type="button"
+      class="text-center"
+      id="magicalButton"
+      value="Try here"
+    />
+    <script type="text/javascript" src="JavaScript.js"></script>
+  </body>
+</html>
