@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body onload="alertLoad()">
+    <h1 id="heading">Web Development Essentials</h1>
+    <p id="paragraph">
+      W02D02-Lab in JavaScript course is about Scripting and Event Handling DOM!
+    </p>
+    <form id="form" onsubmit="return false;">
+      <label for="name">Name:</label><br />
+      <input
+        onkeydown="alertWrite()"
+        type="text"
+        id="name"
+        name="name"
+        value=""
+      /><br />
+      <label for="course">Course:</label><br />
+      <input
+        onkeydown="alertWrite()"
+        type="text"
+        id="course"
+        name="course"
+        value=""
+      /><br /><br />
+      <input type="submit" value="Submit" />
+      <button onclick="doSize(this)">Change size</button>
+      <button onclick="doStyle(this)">font style</button>
+      <button onclick="doHighlight(this)">Highlight</button>
+      <button onclick="doImg(this)">Hide</button>
+      <button onclick="doAlt(this)">Alternate</button>
+    </form>
+    <br />
+    <img
+      id="image"
+      src="http://www.javatpoint.com/images/javascript/javascript_logo.png"
+    />
+    <img
+      style="display: none"
+      height="150px"
+      id="image2"
+      src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+    />
+
+    <script type="text/javascript" src="task1.js"></script>
+  </body>
+</html>
