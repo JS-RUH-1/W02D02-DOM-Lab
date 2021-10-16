@@ -13,8 +13,8 @@ Start of with the following HTML:
 
 </head>
 <body>
-     <h1 id="heading">Homework#5 Web Development Essentials</h1>
-    <p id="paragraph">Homework#5 in JavaScript course is about Scripting and Event Handling DOM!</p>
+     <h1 id="heading"> Web Development Essentials</h1>
+    <p id="paragraph">W02D02-Lab in JavaScript course is about Scripting and Event Handling DOM!</p>
     <form id="form">
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" value=""><br>
